@@ -1,0 +1,33 @@
+function setup() {
+  createCanvas(700, 700);
+}
+
+function draw() {
+  background(240);
+
+  noStroke();
+
+  fill(0, 170, 255);
+  rect(80, 350, 290, 400);
+
+  fill(300, 0, 0);
+  rect(370, 380, 380, 320);
+
+  fill(255, 235, 0);
+  rect(0, 360, 80, 400);
+	
+  fill(300, 0, 0);
+  rect(0, 0, 700, 150);
+
+  stroke(0);
+  strokeWeight(10);
+  strokeCap(SQUARE);
+  line(80, 350, 80, 700);
+  line(370, 350, 370, 700);
+
+  strokeWeight(10);
+  line(0, 150, 700, 150);
+
+  strokeWeight(60);
+  line(0, 360, 700, 360);
+}
